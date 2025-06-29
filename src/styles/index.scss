@@ -1,5 +1,5 @@
 // Normalizador base (usamos path desde node_modules sin ../../)
-@import 'modern-normalize/modern-normalize';
+@import '../node_modules/modern-normalize/modern-normalize.css';
 
 // Utils
 @import 'utils/variables';
