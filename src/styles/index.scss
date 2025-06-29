@@ -1,8 +1,9 @@
+// Normalizador base
 @import '../../node_modules/modern-normalize/modern-normalize';
 
 // Utils
-@import 'utils/common';
 @import 'utils/variables';
+@import 'utils/common';
 @import 'utils/visually-hidden';
 
 // Base
