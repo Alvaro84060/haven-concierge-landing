@@ -1,3 +1,5 @@
+const sassGlob = require('gulp-sass-glob');
+
 const { src, dest, series, parallel } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const fileInclude = require('gulp-file-include');
@@ -27,10 +29,12 @@ function htmlDocs() {
 function sassDocs() {
   return src('src/styles/index.scss')
     .pipe(sourcemaps.init())
+    .pipe(sassGlob())  // 👈 Esta línea es clave
     .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
     .pipe(sourcemaps.write('.'))
     .pipe(dest('docs/css'));
 }
+
 
 // 🖼️ Imágenes
 function imagesDocs() {
