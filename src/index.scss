@@ -1,0 +1,43 @@
+// Normalizador base
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
+// Utils
+@import 'utils/variables';
+@import 'utils/common';
+@import 'utils/visually-hidden';
+
+// Base
+@import 'base/base';
+@import 'base/modifiers';
+@import 'base/container';
+@import 'base/section';
+
+// Components
+@import 'components/animations';
+@import 'components/before-after-slider';
+@import 'components/benefits';
+@import 'components/buildings';
+@import 'components/buttons';
+@import 'components/calc-banner';
+@import 'components/calendar';
+@import 'components/cleaning-package';
+@import 'components/cleaning-types';
+@import 'components/connection';
+@import 'components/discounts';
+@import 'components/footer';
+@import 'components/hero';
+@import 'components/home_header';
+@import 'components/office-calculation';
+@import 'components/order-banner';
+@import 'components/questions';
+@import 'components/reviews';
+@import 'components/scroll-to-top-btn';
+@import 'components/services';
+@import 'components/subscription-modal';
+@import 'components/success-order-table';
+@import 'components/support-modal';
+@import 'components/team-slider';
+@import 'components/theme-toggler';
+@import 'components/time-picker';
+@import 'components/trust';
+@import 'components/work-shedule';
